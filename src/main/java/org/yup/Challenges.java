@@ -75,7 +75,7 @@ public class Challenges {
 
     }
 
-    public int multiplyTwoNumbers(){
+    public int multiplyTwoNumbers() {
         Scanner theScanner = new Scanner(System.in);
 
         //ask the user for number 1
@@ -92,7 +92,7 @@ public class Challenges {
 
     }
 
-    public int interactiveCalculator(){
+    public int interactiveCalculator() {
 
         //fire up the scanner so we can use it below
         Scanner theScanner = new Scanner(System.in);
@@ -112,7 +112,7 @@ public class Challenges {
         int result;
 
         //this shows a switch statement, figure out what to do based on user selection
-        switch (userSelection){
+        switch (userSelection) {
             case 1:
                 //in the case they choose 1, this will run
                 System.out.println("The user chose to add");
@@ -139,7 +139,7 @@ public class Challenges {
 
     }
 
-    public String coinFlip(){
+    public String coinFlip() {
 
         //attempt to flip a coin
         //return heads or tails
@@ -149,7 +149,7 @@ public class Challenges {
             //here is where we return heads if the number generates was > .5
             return "Heads";
 
-        }else{
+        } else {
             //here is where we return if the number generated was less than .5
             return "Tails";
 
@@ -157,7 +157,7 @@ public class Challenges {
 
     }
 
-    public String findTheBiggestNumber(){
+    public String findTheBiggestNumber() {
 
         //The Scanner lets us take input from the user
         Scanner theScanner = new Scanner(System.in);
@@ -178,7 +178,7 @@ public class Challenges {
     }
 
     //find the smallest number
-    public String findSmallestNumber(){
+    public String findSmallestNumber() {
 
         //reference the above method to make one that finds the smaller of the two numbers
         Scanner theScanner = new Scanner(System.in);
@@ -197,7 +197,7 @@ public class Challenges {
     }
 
     //find the difference(not subtracting) between two numbers
-    public String findTheDifferenceBetweenTwoNumbers(){
+    public String findTheDifferenceBetweenTwoNumbers() {
 
         //Math.abs()
         Scanner theScanner = new Scanner(System.in);
@@ -214,7 +214,7 @@ public class Challenges {
 
     }
 
-    public String convertToUppercase(){
+    public String convertToUppercase() {
 
         Scanner theScanner = new Scanner(System.in);
 
@@ -227,7 +227,7 @@ public class Challenges {
 
     //covertoToLowercase below
 
-    public String convertToLowercase(){
+    public String convertToLowercase() {
 
         Scanner theScanner = new Scanner(System.in);
 
@@ -239,7 +239,7 @@ public class Challenges {
     }
 
     //lengthOfWord
-    public String lengthOfWord(){
+    public String lengthOfWord() {
 
         Scanner theScanner = new Scanner(System.in);
 
@@ -250,4 +250,42 @@ public class Challenges {
 
     }
 
+    public void countToTen() {
+
+        for (int i = 1; i <= 10; i++) {
+            //run some code
+            System.out.println(i);
+
+        }
+
+    }
+    //make a method that counts from 10 to 1
+    public void countToOne() {
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+
+        }
+
+
+    }
+    //make a method that counts from 1 to 100 but in increments of 2
+    public void countToOneHundred() {
+
+        for (int i = 1; i <= 100; i += 2) {
+            System.out.println(i);
+
+        }
+
+    }
+    //make a method that counts from 0 to 50 but only prints even numbers
+    public void countToFifty() {
+
+        for (int i = 0; i <= 50; i += 2) {
+            System.out.println(i);
+
+        }
+
+    }
 }
+

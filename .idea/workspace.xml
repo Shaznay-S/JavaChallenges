@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a4d540-b4e3-4d01-9034-0b9f1513118b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/yup/Challenges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/yup/Challenges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/yup/JavaChallengesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/yup/JavaChallengesApp.java" afterDir="false" />
     </list>

@@ -54,11 +54,21 @@ public class JavaChallengesApp {
 //        //below runs a code that shows how to use toUpperCase()
 //        System.out.println(challenges.convertToUppercase());
 //
-        //below runs a code that shows how to use toLowerCase()
-        System.out.println(challenges.convertToLowercase());
+//        //below runs a code that shows how to use toLowerCase()
+//        System.out.println(challenges.convertToLowercase());
+//
+//        //below runs a code that shows how to use length()
+//        System.out.println(challenges.lengthOfWord());
 
-        //below runs a code that shows how to use length()
-        System.out.println(challenges.lengthOfWord());
+//        challenges.countToTen();
+
+//        challenges.countToOne();
+
+//        challenges.countToOneHundred();
+//
+//        challenges.countToFifty();
+
+
 
     }
 
