@@ -258,6 +258,13 @@ public class Challenges {
 
         }
 
+        //below shows how a while loop looks like
+//        int i = 1;
+//        while(i <= 10){
+//
+//            System.out.println(i);
+//            i++;
+
     }
     //make a method that counts from 10 to 1
     public void countToOne() {
@@ -267,11 +274,11 @@ public class Challenges {
 
         }
 
-
     }
     //make a method that counts from 1 to 100 but in increments of 2
     public void countToOneHundred() {
 
+        //it could also be i = i + 2
         for (int i = 1; i <= 100; i += 2) {
             System.out.println(i);
 
@@ -281,11 +288,37 @@ public class Challenges {
     //make a method that counts from 0 to 50 but only prints even numbers
     public void countToFifty() {
 
-        for (int i = 0; i <= 50; i += 2) {
-            System.out.println(i);
+//        for (int i = 0; i <= 50; i += 2) {
+//            System.out.println(i);
+//
+//        }
+
+//        //will always guarantee an even number
+//        int i = 0;
+//        while (i <= 50){
+//
+//            if(i % 2 == 0){
+//                System.out.println(i);
+//
+//            }
+//
+//            i++;
+
+        //for loop version of the above
+        for(int i = 0; 1 <= 50; i++){
+
+            if(i % 2 == 0){
+                System.out.println(i);
+
+            }
+
 
         }
 
+
     }
+
+    
+
 }
 
